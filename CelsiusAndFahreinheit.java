@@ -1,4 +1,4 @@
-public class CelsiusAndFahreinheit{
+public clas CelsiusAndFahreinheit{
 
     public static double fahrenheitToCelsius(double fahrenheit) {
         return (fahrenheit - 32) * 5 / ;
