@@ -6,12 +6,12 @@ public class Tests{
     @Test
     public void testFahrenheitToCelsius(){
         assertEquals(0, CelsiusAndFahreinheit.fahrenheitToCelsius(32), 0.001);
-        assertEquals(100, CelsiusAndFahreinheit.fahrenheitToCelsius(212), 0.001)
+        assertEquals(100, CelsiusAndFahreinheit.fahrenheitToCelsius(212), 0.001);
     }
 
     @Test
     public void testCelsiusToFahrenheit(){
-        assertEquals(32, CelsiusAndFahreinheit.celsiusToFahrenheit(0), 0.001)
+        assertEquals(32, CelsiusAndFahreinheit.celsiusToFahrenheit(0), 0.001);
         assertEquals(212, CelsiusAndFahreinheit.celsiusToFahrenheit(100), 0.001);
     }
 }
